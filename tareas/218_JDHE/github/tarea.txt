@@ -1,2 +1,3 @@
 Este es el link para la tarea skills-introduction-to-github: https://github.com/ByJavier1403/skills-introduction-to-github
 Este es el link para la tarea skills-resolve-merge-conflicts: https://github.com/ByJavier1403/skills-resolve-merge-conflicts
+Este es el link para la tarea skills-review-pull-requests: https://github.com/ByJavier1403/skills-review-pull-requests
