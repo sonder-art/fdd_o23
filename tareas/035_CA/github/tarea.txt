@@ -1,4 +1,4 @@
-Linea de Prueba 
-Link al repositorio de tut-git
-Link al repositorio de tut-merge
+Repo Introduccion:https://github.com/carlaAndr/skills-introduction-to-github 
+Repo Pull Requests: https://github.com/carlaAndr/skills-review-pull-requests 
+Repo Resolve Merge: https://github.com/carlaAndr/skills-resolve-merge-conflicts2
 
