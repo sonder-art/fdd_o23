@@ -1,0 +1,3 @@
+https://github.com/mellamanelpoeta/skills-introduction-to-github
+https://github.com/mellamanelpoeta/skills-resolve-merge-conflicts
+https://github.com/mellamanelpoeta/skills-review-pull-requests
