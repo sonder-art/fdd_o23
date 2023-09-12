@@ -1,0 +1,5 @@
+Para el ejercicio 5 -) 6 usamos el comando de ls -b (para ver el peso de los archivos) -a (todos los archivos dentro de las carpetas) | grep 1033 de esa manera obtenemos un archivo que pesa 1033 bytes y aunque esta oculto y dentro del directorio 7 podemos encontrarlo y abrirlo par obtener la contraseña:
+P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+
+Para el ejercicio 6 -) 7 usamos el comando find para poder encontrar los archivos ya que estan ocultos. En la busqueda usamos las especificaciones que nos dan de tamaño, usuario y grupo para encontrarla. Esto nos dará el archivo que buscamos pero también nos manda mensajes sobre nuestra falta de permisos, para solucionarlo encontre con chat GPT que los puedes desviar con el comando 2> /dev/null. Con todo esto obtenemos el path que nos lleva al archivo con la contraseña:
+z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
