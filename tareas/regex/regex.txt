@@ -1,0 +1,23 @@
+Redex 
+
+Level 
+\b\d+\b
+
+Level 2 
+\b([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})\b
+
+Level 3 
+
+ftp:\/\/[^\s]+
+ftp:\/\/: Coincide con "ftp://" de manera literal, escapando el carácter "/" con "".
+[^\s]+: Coincide con uno o más caracteres que no son espacios en blanco. Esto captura la parte de la URL que sigue a "ftp://".
+
+Level 4
+\$.+?\$
+
+Level 5 
+\d+\.+\d+\.+\d+\.\d+
+
+Level 6
+
+href=[^\s]+\"|href=[^\s]+\'
