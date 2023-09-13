@@ -1,0 +1,25 @@
+En el primer nivel solo debemos regresar los digitos que tenga el texto, para hacerlo usamos:
+
+\d+
+
+En el segundo nivel debemos regresar los números dentro de parentesis que cumplan con una secuencia que se forma como 2 caracteres y un ':' 5 veces y una ultima observación de 2 caracteres. Para resolverlos use un agrupamiento de todos las observaciones del primer patrón y agregue que añadiera los 2 caracteres:
+
+(\w{2}:){5}\w{2}
+
+En el tercer nivel use un razonamiento parecido al observar lo que nos pide buscar. En este caso yo pedí que me diera todos los que cumplen con la forma de los path que buscamos. En este caso aprovechamos los patrones que se repiten:
+
+\w{3}://(\w+.){3}\w+(/\w+){2}/
+
+En el cuarto nivel nos pide que encontremos las cosas que se encuentran enmedio de '$', lo que usamos es pedir que literalmente nos de las observaciones de '$' y todo lo que no sea '$' hasta el siguiente '$?, de esa forma nos regresa todo entre '$..$' incluyendo los '$':
+
+\$[^$]*\$
+
+En el quinto nivel usamos una aproximación similar a el segundo y tercer nivel y aprovechamos la estructura de patrones de las observaciones que debemos encontrar. Para ello usamos la recolección de patrones similar a la del ej. dos pero sin especificar tamaño de los números.
+
+(\d+\.){3}\d+
+
+En el sexto nivel use una solución similar a la del cuarto nivel al buscar todo lo que estaba entre 2 signos, pero agregue un '|' como una segunda busqueda para poder encontrar los dos que divergen por el uso de "'" o de '"' y con ello recuperamos los elementos que pide:
+
+\href='[^\']*\'|\href="[^\"]*\"
+
+

@@ -1,0 +1,12 @@
+Nivel 1
+\d\d
+Nivel 2
+[0-9A-Fa-f]+:+[0-9A-Fa-f]+:[0-9A-Fa-f]+:+[0-9A-Fa-f]+:+[0-9A-Fa-f]+:+[0-9A-Fa-f]+
+Nivel 3
+ftp://ftp\d*.\w*.FreeBSD.org/\w*/\w*/
+Nivel 4
+\$\\*(\w*|[A-Z]|[a-z])  //Duda
+Nivel 5
+\d+\.\d+\.\d+\.\d+
+Nivel 6
+href="?'?[\w:]*[/|\w*|//|.]?\w*[(|/|.]?\w*['|/]\w*[/|.]?\w*[.|/]?\w*[.|?|/]?\w*[=|#|/|?]?['|&|[A-Z|"|.]?
