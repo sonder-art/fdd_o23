@@ -1,0 +1,14 @@
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore build directories
+build/

@@ -1,0 +1,21 @@
+
+1) regex: \d+
+use esto porque te agarra todos los numers con al menos un digito que coincidan 1 o mas veces.
+
+2) regex: (\w{2}:\w{2}:\w{2}:\w{2}:\w{2}:\w{2})
+use esto porque te pide buscar una expresion entre unos parentesis con cualquier 2 caracteres alfanumericos seguidos por un :, entonces me agarro
+2 alfacaracteres cualquiera y digo que se detenga en : y luego agarre los siguientes 2 hasta que haya 6
+
+3) regex: (\b\w{3}://.*\b/)
+estoy diciendo que mi palabra inicie con 3 alfacaracteres cualquiera y sea seguido por un :// luego me agarro cualquier caracter con 0 o mas repeticiones
+y me detengo hasta que haya una letra por eso esta el \b seguida por /
+
+4) regex: \$.*?\$
+el \$.*\$ me da todo de lo de adentro de dos $'s pero para ir nada mas de dos en dos uso el ? que no considera el ultimo $ para el siguiente
+$ inicial. El ? me esta diciendo que ya cumpli con lo requerido para la expresion por eso no agarra otro $ porque ya agarro uno.
+
+5) regex: \d+\.\d+\.\d+\.\d+
+me esta diciendo que me pide un numero con al menos 1 digito seguido por un \. y luego asi sucesivamente 3 veces mas.
+
+6) regex: ((href=".*?")|( href='.*?')) o href=(["'])(.*?)\1
+se agarra todos el texto que empieze con href=" y acabe con " y tambien considera el caso de ', la segunda manera la encontro chatGPT, no se que es el 1
