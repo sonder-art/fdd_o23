@@ -1,0 +1,47 @@
+Level 1:
+Se pide extraer números enteros, de manera que utilizo
+\d+ 
+pues '\d' corresponde a dígito y '+' es para que aparezca 1 o más dígitos.
+
+Level 2:
+Se pide extraer direcciones MAC de la forma 00:26:f4:fd:77:d1,bc:b8:52:d0:55:33
+El primer patrón a buscar es 'XX:' donde X está en [0-9a-zA-Z]
+Al tener XX, debemos incluir el {2} 
+[0-9a-zA-Z]{2}:
+Este patrón se va a repetir 5 veces, por lo que lo especificamos
+([0-9a-zA-Z]{2}:){5}
+Y finalmente añadimos los últimos dos 'XX' que no terminan con ':'
+([0-9a-zA-Z]{2}:){5}[0-9a-zA-Z]{2}
+
+Level 3:
+Se pide extraer ligas de la forma: ftp://ftp4.jp.FreeBSD.org/pub/FreeBSD/, ftp://ftp.no.FreeBSD.org/pub/FreeBSD/
+ftp://
+Pues esa parte siempre aparece
+Luego queremos cualquier carácter hasta que aparezca un D/
+ftp://.+D/
+
+Level 4:
+Queremos capturar las expresiones matemáticas en laTex, es decir, que comienzan y terminan con signo $:
+\$
+Para marcar el signo inicial
+Luego queremos lo que sea que haya en medio 
+\$(.*)
+Y que termine con $
+\$(.*)\$
+Pero esto intenta tomar la mayor cantidad de caracteres entre $$, para hacerlo más pequeño, agregamos un ?
+\$(.*?)\$
+
+Level 5:
+Queremos extraer direcciones ip de la forma 69.43.205.171, 74.125.189.23, 213.92.85.203
+
+Queremos entre 2 y 3 dígitos seguidos por un punto 'XXX.' Al menos 3 veces
+(\d{2,3}\.){3}
+Finalmente agregamos el ultimo grupo de dígitos
+(\d{2,3}\.){3}\d{2,3}
+
+Level 6:
+Queremos extraer vínculos de la forma href="http://search.epnet.com/login.asp?profile=web&amp;defaultdb=geh",href='deneme.html#ps'
+Todas empiezan con href=
+href=
+Luego, pueden traer comillas " o apostrofo ':
+href=(".+?"|'.+?')
