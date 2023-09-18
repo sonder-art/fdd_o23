@@ -1,0 +1,6 @@
+Primer tutorial: 
+https://github.com/LuisESuarezA/skills-introduction-to-github
+Segundo tutorial:
+https://github.com/LuisESuarezA/skills-resolve-merge-conflicts
+Tercer turorial:
+https://github.com/LuisESuarezA/skills-review-pull-requests 

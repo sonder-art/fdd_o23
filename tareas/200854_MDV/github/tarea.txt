@@ -1,0 +1,6 @@
+git@github.com:maudiaz221/skills-introduction-to-github.git
+
+git@github.com:maudiaz221/skills-resolve-merge-conflicts.git
+
+git@github.com:maudiaz221/skills-review-pull-requests.git
+
