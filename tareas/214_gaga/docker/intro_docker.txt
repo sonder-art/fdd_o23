@@ -1,0 +1,2 @@
+https://hub.docker.com/u/mellamanelpoeta
+https://hub.docker.com/layers/mellamanelpoeta/mi_primer_repo/1.0/images/sha256-5fe0f37bf83e2caa3e17836c6c27dc5718d421e60e73bcf691117dff9a263d88?context=repo
