@@ -1,0 +1,14 @@
+5 -> 6:
+pwd
+ls
+find -P . -size 1033c
+cat ./maybehere07/.file2
+
+6 -> 7:
+pwd
+Cd..
+Cd..
+find -P . -user bandit7 -group bandit6 -size 33c
+cat ./var/lib/dpkg/info/bandit7.password
+
+
