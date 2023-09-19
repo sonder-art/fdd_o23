@@ -1,0 +1,4 @@
+Link a mi repo:
+https://hub.docker.com/u/sanviram7
+Link a la imagen:
+https://hub.docker.com/layers/sanviram7/fddsvr/1/images/sha256-d2e4ddb226b6b9c184147f32ee03cca972f74e824d50f1d2788b1995802a46a7?context=repo
