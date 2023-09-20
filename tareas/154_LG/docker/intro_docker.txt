@@ -1,2 +1,22 @@
 https://hub.docker.com/u/genarorocha
 https://hub.docker.com/layers/genarorocha/154_lg/latest/images/sha256-ad6ddeb66cae5f320adaeacd94cb91230b83f40e656c9ee90872cfd1e9331dc4?context=repo
+
+16 commands
+
+1. docker pull: Descargar una imagen de Docker desde un registro (como Docker Hub) al sistema local.
+2. docker run nombre_imagen: Crear y ejecutar un contenedor a partir de una imagen de Docker
+3. docker run -d nombre_contenedor: Nos da el ID del contenedor en cuestión
+4. docker stop nombre_contenedor: Detiene un contenedor en ejecución.
+5. docker start nombre_contenedor: Reinicia un contenedor previamente detenido.
+6. docker ps: Muestra los contenedores en ejecución en el sistema.
+7. docker exec -it nombre_contenedor /bin/bash: Ejecuta un comando dentro de un contenedor en ejecución, '-it' permite la interacción interactiva con el contenedor
+8. docker logs nombre_contenedor: Muestra los registros de salida de un contenedor en ejecución.
+9. docker images: Muestra las imágenes con su ID, nombre, fecha de creación y status
+10. docker ps -a: Muestra los contenedores, estén corriendo o no
+11. docker run nombre_version_imagen: Ejecuta una imagen aunque no se encuentre localmente
+12. docker run -p portHost:containerPort nombre_imagen: Mapea 'portHost' de nuestra máquina al 'containerPort' del contenedor
+13. docker run -p portHost:containerPort nombre_imagen -d: Mapea el 'portHost', pero en segundo plano
+14. docker run -d portHost:containerPort --name nombre_contenedor BaseImage:
+15. docker --help: Despliega el menú de ayuda
+16. docker exec -it id_contenedor /bin/bash: Igual que el 7 pero con el ID
+
