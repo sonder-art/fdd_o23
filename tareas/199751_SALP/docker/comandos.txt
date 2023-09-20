@@ -1,0 +1,43 @@
+docker pull <imagen>
+
+Descarga la <imagen> desde un registro (normalmente docker hub pero puede ser algun registro de algún otro tipo).
+
+docker stop <contenedor>
+
+De tiene el <contenedor> en ejecución
+
+docker run <imagen>
+
+Crea y ejecuta un contenedor de la <imagen>. Si no se tiene la imagen localmente se intenta descargar de su registro.
+
+-d                              Detach mode: Corre el contenedor en background para poder seguir usando la terminal.
+-p <host port>:<container port> Ports: Mapea los puertos del host al puerto virtual del contenedor.
+--name <nombre>                 Nombre: Establece el nombre del nuevo contenedor
+
+docker ps 
+
+Lista los contenedores activos.
+
+-a Lista los contenedores activos y no activos.
+
+docker images
+
+Te lista todas las imagenes que tienes localmente.
+
+docker logs <contenedor>
+
+Te muestra los logs que tuvo el contenedor.
+
+docker stop <contenedor>
+
+Detiene la ejecución del <contenedor>
+
+docker exec <contenedor>
+
+Ejecuta un comando nuevo en el <contenedor> en ejecución.
+
+-it Es una combinación entre el tag -i que mantiene el stdin del contenedor abierto y el comando -t que ejecuta una terminal (pseudo tty).
+
+docker start <contenedor|contenedores...>
+
+Ejecuta uno o varios contenedores detenidos.
