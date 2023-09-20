@@ -1,0 +1,18 @@
+- docker images: Listado de las imágenes con su ID, el repositorio, fecha de creación y status.
+- docker run nameImage : Inicia la imagen en el contenedor.
+- docker ps: Lista de los contenedores corriendo, con la imagen en la que se basó y puertos.
+- docker run -d nameContenedor: detache mode. Output es el Id.
+- docker stop dockID: Detener el contenedor.
+- docker star dockID: Reiniciar el contenedor.
+- docker ps -a: Todos los contenedores que esten corriendo o no.
+- docker run nameImageVersion: corre la imagen incluso si no se encuentra localmente.
+- docker run -p portHost:containerPort nameImage: mapea el puerto "portHost" de tu máquina host al puerto "containerPort" del contenedor.
+- docker  run -p portHost:containerPort nameImage -d : mapea el puerto, pero en segundo plano.
+- docker pull: descarga la imagen al local.
+- docker logs containerID: Ingresa a un contenedor corriendo.
+- docker run -d puertoHost: containerPort --name nombreContendor imagenBase
+- docker exec -it containerID /bin/bash: shell interactivo dentro de un contenedo
+- docker --help: Ayuda
+- docker docker exec -it nameContainer /bin/bash: Lo mismo pero con el nombre.
+
+
