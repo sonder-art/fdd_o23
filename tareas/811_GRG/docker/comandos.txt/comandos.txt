@@ -1,0 +1,25 @@
+===============================
+CHEAT SHEET DE DOCKER 
+=============================
+
+COMANDOS BASICOS
+
+1) docker pull -- sirve para descar una imagen 
+2) docker images -- te muestra todas las imagenes con información de repositorio,log,id,fecha de creación y tamaño 
+3) docker run -- empieza a correr la imagen en contenedor 
+4) docker run -d -- corre en detach mode 
+5) docker ps -- status de todos los contenedores que están corriendo 
+6) docker stop <id_contenedor> -- detiene el contenedor 
+7) docker start <id_contenedor> -- reincia el contenedor 
+8) docker ps -a -- muestra los contenedores que están corriendo y no corriendo(útil para reiniciar un contenedor) 
+9) docker run (versión que queires) -- ej docker run  redis:4.0 es un docker pull y start al mismo tiempo 
+10) docker run -p<Host>:<container_port> -- otra manera de hacer run haciendo la conexión de compu al puerto 
+
+DEBUGGING 
+
+11) docker logs <name_container o id_container> -- ves los logs producidos sirve si la conexión falla para ver que sucede 
+12) docker run -d -p6001:6378 --name redis_older -- poner un nombre de contenedor en este ejemplo le pusimos redis_older 
+13) docker exec -it <name_container o id_container> /bin/bash -- nos deja navegar adentro del contenedor 
+
+  
+ 
