@@ -1,0 +1,39 @@
+CheatSheet:
+
+1) docker pull <docker_image>: se usa para instalar docker images a tu maquina local
+
+2) docker run <options> <docker_image>: docker run sirve para correr el docker image que te genera el contenedor
+
+docker run --options: 
+
+	3) docker run -d: es lo mismo que docker run pero te lo corre en detach mode.
+
+	4) docker run image:tag: te hace docker pull y docker start en un comando
+	
+	5) docker run -plocalport:containerport: corre el contenedor a traves de un binding de tu local host port al port de tu contenedor
+	
+
+6) docker stop <container_id>: docker stop idContenedor, te detiene el docker container lleva de parámetro el container id
+
+7) docker start <container_id>: docker start se usa para empezar un contenedor, donde lleva de parámetro el containerID. Lo puedes buscar el id de contenedor en docker ps -a
+
+8) docker ps: te enseña todos los contenedores actuales corriendo 
+
+9) docker ps -a y te enseña todos los contenedores que están corriendo o no corriendo.
+
+10) docker images: te enseña todas las docker images de docker que tienes
+
+11) docker exec -it <container_id> /bin/bash: te permite usar la terminal interactiva dentro del contenedor lleva como parámetro el container ID y después del container ID pones /bin/bash
+
+12) docker log <container_id>: te permite ver loss logs generados por el contenedor que esta corriendo, el log te da el comportamiento de la aplicación en general, lleva de parámetro el containerId o nombre
+
+13) docker run --name nuevo-nombre-de-contenedor image: este comando te permite correr la imagen y al correrlo estas creando un nuevo contenedor que tu nombraste
+
+Diferencia entre docker run y docker start: docker run te corre la imagen lo que te genera el contenedor básicamente te crea el contenedor, docker start te corre el contenedor ya hecho por la imagen
+
+14) docker rm <container_id> or docker rm <container_name>: quita un container detenido, borra un container pero no la imagen asociada
+
+15) docker rmi <imageid>: quita la docker image
+
+16) docker build -t <image:tag> <path>: te construye la docker image del Dockerfile de un path. Tu nombras la imagen forzosamente y pones un tag de manera opcional. 
+Tip: Es recomendable estar en el mismo directorio que el dockerfile para no agregar el path una ves que lo construyes.
