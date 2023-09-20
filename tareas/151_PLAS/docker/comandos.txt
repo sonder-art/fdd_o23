@@ -1,0 +1,25 @@
+CHEATSHEET COMANDOS DE DOCKER
+
+PARA VER LO QE TENGO ACTUALMENTE
+docker images -> Muestra las imagenes que tengo descargadas
+docker ps -> Muestra los contenedores activos
+docker ps -a -> Muestra todos los contenedores, estén activos o no
+
+DESCARGAR UNA IMAGEN DE DOCKERHUB
+docker pull <nombre_imagen>:versión -> Descarga las layers de la imagen
+
+DOCKER RUN: Crea un nuevo contenedor a partir de una imagen
+<nombre_imagen> -> Recibe solo el nombre de la imagen
+<nombre_imagen>:versión -> Hace pull y corre el contenedor inmediatamente
+-d <nombre_imagen> -> Corre un contenedor en modo "detached". Arroja como output el ID del contenedor
+-p<HOST_PORT>:<CONTAINER_PORT> -> "Bindeas" el puerto del host y del contenedor. Evita problemas de referencia
+--name <nombre_arbitrario> <nombre:imagen>:versión -> Crea un contenedor con un nombre específico
+
+REINICIAR UN CONTENEDOR
+docker stop <CONTAINER_ID> -> Detiene un contenedor
+docker start <CONTAINER_ID> -> Inicia un contenedor sin crear uno nuevo, manteniendo los mismos atributos
+
+DEBUGGING
+docker logs <CONTAINER_ID||NAME> -> Ver los "Logs" que te está haciendo el contenedor
+docker exec -it <CONTAINER_ID||NAME> bin/bash -> Abre una terminal interactiva de un contenedor activo
+
