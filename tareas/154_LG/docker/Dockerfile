@@ -14,9 +14,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . /app
 
 # Define el comando por defecto para ejecutar la aplicación
-CMD ["/bin/bash"]
-
-# Define el comando por defecto para ejecutar la aplicación
 CMD ["python", "app.py"]
 
 
