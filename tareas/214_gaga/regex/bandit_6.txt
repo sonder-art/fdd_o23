@@ -1,0 +1,46 @@
+ssh bandit<j>@bandit.labs.overthewire.org -p 2220
+
+
+0 –> 1
+pwd
+head readme
+Password: 
+NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+
+1–>2
+cat ./-
+Password: 
+rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+
+2–>3
+cat spa[tab]
+Password: 
+aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+
+3–>4
+cd inhere
+ls -a
+Password:
+2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+
+4–>5
+ls -l
+head ./-file0i
+...
+head ./-file07
+Password: 
+lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+
+5–>6
+find . -type f -size 1033c ! -executable -exec ls -l -a {} \;
+head maybehere07/.file2
+Password:
+P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+
+6–>7
+find / -user bandit7 -group bandit6 -size 33c | grep "password"
+head /var/lib/dpkg/info/bandit7.password
+Password:
+z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+
+
