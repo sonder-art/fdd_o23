@@ -1,0 +1,2 @@
+Repositorio introducción GitHub: https://github.com/MiguelMonr/IntroduccionGit
+Repositorio solución Conflitcos: https://github.com/MiguelMonr/Solucion-Conflictos/tree/my-resume

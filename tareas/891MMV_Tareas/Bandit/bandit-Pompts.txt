@@ -1,0 +1,19 @@
+Para nivel 5-6
+
+ls ~/inhere para saber los archivos abajo del directorio
+
+Para ver que cumpla condiciones
+find inhere/ -type f ! -executable -size 1033c
+
+Para nivel 6-7
+P
+ara buscar primero ls
+Luego ls -l -la para ver todos los archivos (no funciono)
+
+Entonces use find / -user 7 -group 6 (aparecieron todos los archivos con esos dueños 
+Para redirigirlo los mensajes de permiso denegado  use 2>/dev/null
+find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
+
+Contraseñas 
+Password nivel 6 P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+Password nivel 7 z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
