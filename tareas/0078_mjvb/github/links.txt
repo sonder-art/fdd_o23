@@ -1,0 +1,5 @@
+Intro GitHub repository
+https://github.com/Majo2103/skills-introduction-to-github
+Merge GitHub repository 
+https://github.com/Majo2103/skills-resolve-merge-conflicts
+

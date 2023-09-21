@@ -1,0 +1,11 @@
+En el primer nivel solamente nos pedía extraer los números por lo que utilicé: \d+
+
+En el segundo nivel necesitaba extraer tanto dígitos como carácteres en un determinado formato, al saber que tanto los dígitos como los carácteres no son espacios en blanco aproveché esto para, por medio del formato, extraer los datos: (\S\S:){5}\S\S
+
+En el tercer nivel todos los datos empiezan por ftp://, a partir de allí basta con ver el patrón, por lo que mi solución fue: ftp://(\w+.){6}
+
+En  el cuarto nivel basta ver que el formato inicia y termina con un $ y no importa lo que hay en medio, por lo que basta con: $.*?$
+ 
+En el quinto nivel podemos utilizar algo muy similar al del 2do nivel, solo que ahora en lugar de ser carácteres y números son solo números: (\d+\.){3}\d+
+
+En el sexto nivel observamos que el formato empieza por href=, sin embargo, a partir de allí tenemos dos casos: Uno donde inicia y temrina con  y otro con '', por lo que podemos combinar el razonamiento del 3er y 4 nivel  solo que ahora utilizando | para obtener los 2 casos: href=.*?|href=\'.*?\'

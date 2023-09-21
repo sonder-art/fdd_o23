@@ -1,0 +1,2 @@
+Introducción a Github: https://github.com/SebastianYamil/skills-introduction-to-githu2b
+Resolving Merges: https://github.com/SebastianYamil/skills-resolve-merge-conflicts4/pull/2/

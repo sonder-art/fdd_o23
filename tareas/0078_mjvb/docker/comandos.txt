@@ -1,0 +1,24 @@
+Cheat sheet comandos Docker:
+1. build : crea una imagen 
+	-t le da nombre
+	-f usa un docker file con nombre diferente
+2. run : crea un contenedor de una imagen dada. Si la imagen no esta en tu local, también hace el pull
+	-it interactive terminal: entras al contenedor
+	-d detached
+	-p le asigna un puerto
+	--name le da nombre al contenedor
+	-v volumen, que las modificaciones afecten al contenedor [rutaHost:rutaContenedor]
+3. ps : muestra contenedores corriendo
+	-a muestra todos los contenedores creados, incluso los que ya no están corriendo
+4. images :muestra una lista de todas las imágenes en nuestra computadora
+5. volume : involucra los volúmenes
+	create lo crea
+	ls los enlista
+6. Pull : descarga la imagen de algún lugar dado
+	
+
+
+
+
+
+	

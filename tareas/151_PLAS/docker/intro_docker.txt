@@ -1,0 +1,5 @@
+Link a mi cuenta de Dockerhub:
+https://hub.docker.com/u/palazraks
+
+Link a la imagen:
+https://hub.docker.com/r/palazraks/intro_docker

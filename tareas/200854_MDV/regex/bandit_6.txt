@@ -1,0 +1,19 @@
+Level 5-6 
+find  -type f -size 1033c ! -executable
+#te regresa el path
+Cat path
+
+Use find ya que te encuentra el tipo de archivo que buscas donde
+-type f te dice que es un tipo file
+-size 1033c te dice que es de 1033 bytes
+! -executable te esta diciendo que no es ejecutable
+
+Level 6-7
+find  -user bandit7 -group bandit6 -size 33c 
+
+Te pide que encuentres en el servidor algo con las siguientes propiedades 
+-user bandit7
+-group bandit6
+-size 33c que tu byte size sea de 33
+Te van a salir puros textos que dicen permisión decide excepto uno el cual es un path
+Y luego haces cat path
