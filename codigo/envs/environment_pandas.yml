@@ -4,8 +4,7 @@ channels:
 
 # Dependencias de Conda
 dependencies:
-  - pandas
-  - conda-forge::seaborn
+  - conda-forge::pandas
   - pip
   - pip:
-    - pandas-profiling
+    - ydata-profiling
