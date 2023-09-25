@@ -1,0 +1,11 @@
+# Channels para usar conda
+channels:
+  - defaults
+
+# Dependencias de Conda
+dependencies:
+  - pandas
+  - conda-forge::seaborn
+  - pip
+  - pip:
+    - pandas-profiling
