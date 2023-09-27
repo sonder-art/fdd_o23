@@ -1,0 +1,15 @@
+docker pull ) descarga la imagen de un repositorio
+docker run ) inicia un contenedor de una imagen dentro de la computadora
+docker start) & docker stop) te ayudan a empezar y detener una imagen en caso de que les hayas hecho cambios
+docker run -d ) te deja correr en detach para correr otravez la terminal -p) te deja seleccionar el puerto del contenedor
+docker ps -a) te da todos los contenedores que estan corriendo independientemente de todo
+docker images) te da todas la imagenes que tienes localmente
+docker ps) regresa los contenedores que estan corriendo
+docker logs [containerID] ) nos da los logs que ha hecho un contenedor en especifico. También se puede con el nombre
+docker run -d -p6001/6379 --name [NAME] [IMAGE] ) te deja correr un nuevo contenedor de una imagen con un nuevo nombre
+docker exec -it [CONTAINER ID] ) te deja correr la consola del contenedor con base en la imagen del contenedor
+env (dentro de la consola) para saber la información de la consola
+exit (para salir de la consola)
+docker exec -it [NAMEDELCONTENEDOR] [Que quieres que corra] ) para que corra la consola de la imagen con una especificación sobre el idioma que corre la consola
+docker run -d -p --name [NAME] ) te deja correr un nuevo contenedor y darle un nombre
+
