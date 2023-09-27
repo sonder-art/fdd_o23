@@ -1,0 +1,115 @@
+Le pedí a chatgpt :D
+
+1. **docker run**: Create and start a new container from an image.
+
+   Example:
+   ```bash
+   docker run -it --name my-container ubuntu:latest
+   ```
+
+2. **docker pull**: Download Docker images from a registry (e.g., Docker Hub).
+
+   Example:
+   ```bash
+   docker pull ubuntu:latest
+   ```
+
+3. **docker build**: Build a Docker image from a Dockerfile.
+
+   Example:
+   ```bash
+   docker build -t my-image .
+   ```
+
+4. **docker ps**: List running containers.
+
+   Example:
+   ```bash
+   docker ps
+   ```
+
+5. **docker ps -a**: List all containers, including stopped ones.
+
+   Example:
+   ```bash
+   docker ps -a
+   ```
+
+6. **docker stop**: Stop a running container.
+
+   Example:
+   ```bash
+   docker stop my-container
+   ```
+
+7. **docker start**: Start a stopped container.
+
+   Example:
+   ```bash
+   docker start my-container
+   ```
+
+8. **docker rm**: Remove one or more stopped containers.
+
+   Example:
+   ```bash
+   docker rm my-container
+   ```
+
+9. **docker rmi**: Remove one or more images.
+
+   Example:
+   ```bash
+   docker rmi my-image
+   ```
+
+10. **docker logs**: View the logs of a container.
+
+    Example:
+    ```bash
+    docker logs my-container
+    ```
+
+11. **docker exec**: Run a command inside a running container.
+
+    Example:
+    ```bash
+    docker exec -it my-container bash
+    ```
+
+12. **docker network**: Manage Docker networks (e.g., create custom networks for container communication).
+
+    Example (create a new network):
+    ```bash
+    docker network create my-network
+    ```
+
+13. **docker-compose**: Define and run multi-container applications using a `docker-compose.yml` file.
+
+    Example (start services defined in a `docker-compose.yml` file):
+    ```bash
+    docker-compose up
+    ```
+
+14. **docker inspect**: View detailed information about containers, images, networks, and more.
+
+    Example (inspect a container):
+    ```bash
+    docker inspect my-container
+    ```
+
+15. **docker volume**: Manage Docker volumes for persistent data storage.
+
+    Example (create a volume):
+    ```bash
+    docker volume create my-volume
+    ```
+
+16. **docker version**: Display Docker version information.
+
+    Example:
+    ```bash
+    docker version
+    ```
+
+These commands cover a wide range of Docker operations, from managing containers and images to networking and volume management.
