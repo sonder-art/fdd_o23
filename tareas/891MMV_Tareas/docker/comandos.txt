@@ -1,0 +1,49 @@
+Sheet code:
+
+Cada imagen va a tener distintas versiones. Cuando no especificas el tag se va a poner latest por default
+
+Para ver las imágenes: docker images
+Para observar los contenedores activos docker ps
+Para observar los contenedores (activos o no) docker ps -a
+Para iniciar un contendor docker star id-contenedor o nombre-contendor
+
+
+Para correr una imagen en docker se necesita crear un contenedor.  Para crear una imagen en un contenedor en el modo detached: 
+docker run nombre-imagen
+
+Para correr pararlo se puede lograr con ctrl+c
+
+Manera alterna de parar el contenedor: dpcker stop
+
+Para obtener el id del contenedor docker run -d nombre-contenedor
+
+Para reiniciar el contenedor se necesita el id: docker stop id-contenedor
+
+Para ver el historial de los contenedores docker ps -a
+
+Para jalar una imagen desde docker hub: docker pull nombreUsuario:version
+					         docker run nombreImagen:tag
+En docker hub se puede omitir hacer pull con el siguiente comando : docker run nombre-imagen:version
+
+Para conectarse al contenedor que esta corriendo puedes conectarte al puerto del host. Para lograrlo: docker run -pPuertoHost:PuertoContenedor nombre contenedor
+
+Comandos para debuguear 
+
+Para observar el historial de conexiones a un contenedor: docker logs id-contenedor o nombre-contenedor
+
+Cuando se crea un contenedor sin especificar el nombre se crea uno en automático
+Para crear un nuevo contenedor con una imagen ya existente: docker — name nombre imagen:tag
+
+Para ver la terminal de un contenedor que esta corriendo: docker exce -it id-contenedor o nombre  /bin/bash
+
+
+
+
+
+
+
+
+
+
+
+
