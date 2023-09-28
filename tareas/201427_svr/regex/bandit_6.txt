@@ -1,0 +1,18 @@
+5-->6
+	utilicé el find . para que busque dentro de todos los que hay en este directorio.
+	luego -readable para saber si era legible
+	finalmente -size 1033c para establecer el tamaño en bytes
+	el comando final: find . -readable -size 1033c
+	el último para que de el comando fue: cat ./maybehere07/.file2
+	password: P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+
+6-->
+	utilicé find / para buscar dentro de todo el servidor
+	luego -group para especificar el grupo dueño
+	después -user para especificar quién era el usuario dueño
+	finalmente -size igual que en el anterior
+	aparecen muchos archivos que no puede acceder, menos uno: /var/lib/dpkg/info/bandit7.password
+	usamos cat /var/lib/dpkg/info/bandit7.password para acceder a ese archivo
+	password: z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+
+
