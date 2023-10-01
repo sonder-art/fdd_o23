@@ -1,0 +1,2 @@
+xhttps://github.com/Galilea-R/skills-resolve-merge-conflicts.git
+https://github.com/Galilea-R/skills-introduction-to-github.git
