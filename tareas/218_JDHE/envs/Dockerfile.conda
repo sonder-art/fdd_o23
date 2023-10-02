@@ -1,0 +1,17 @@
+# Usamos una imagen base de Anaconda para Python 3.8
+FROM continuumio/anaconda3:latest
+
+# Establecemos un directorio de trabajo en el contenedor
+WORKDIR /app
+
+# Copiamos el archivo environment_pandas.yml al contenedor
+COPY environment_pandas.yml .
+
+# Copiamos el archivo app.py al contenedor
+COPY app.py .
+
+# Creamos un nuevo entorno conda a partir del archivo environment_pandas.yml
+RUN conda env create -f environment_pandas.yml
+
+# Ejecutamos el archivo app.py dentro del entorno conda
+CMD ["conda", "run", "-n", "conda_docker", "python", "app.py"]
