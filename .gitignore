@@ -138,8 +138,6 @@ venv.bak/
 
 # mkdocs documentation
 
-# Ignora archivos .DS_Store generados por macOS
-.DS_Store
 
 
 
