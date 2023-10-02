@@ -9,10 +9,11 @@ COPY requirements_pandas.txt .
 
 # Codigo para manejar ambientes
 RUN python -m venv venv
-RUN source venv/bin/activate
+
+RUN /bin/bash -c "source venv/bin/activate"
 
 #Codigo para instalar requirements
-RUN pip install -r requirements_pandas.txt
+RUN pip install --no-cache-dir -r requirements_pandas.txt
 
 # Copia el código actual al contenedor en /app
 COPY . /app

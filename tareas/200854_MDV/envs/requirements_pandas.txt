@@ -1,2 +1,2 @@
-pandas == 2.1.1
+pandas 
 ydata-profiling
