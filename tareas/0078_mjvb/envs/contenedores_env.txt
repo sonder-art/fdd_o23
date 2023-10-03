@@ -1,0 +1,3 @@
+Lo intentamos.
+Que logré: crear la imagen del venv y que corriera
+Que no logré: Pushear la imagen... o en una de esas si pero no la encuentro en el repo. Atmpoco que funcionara el Dockerfile de conda. Voy a subir todo como evidencia por si acaso :( tiste
