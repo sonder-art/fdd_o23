@@ -1,0 +1,24 @@
+# Use a base image with Python installed
+FROM python:3.9
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy the requirements file into the container
+COPY requirements_pandas.txt .
+
+# Create a virtual environment
+RUN python3 -m venv .venv
+
+# Activate the virtual environment
+SHELL ["/bin/bash", "-c"]
+RUN source .venv/bin/activate
+
+# Install the required libraries using pip
+RUN pip install -r requirements_pandas.txt
+
+#copia 
+COPY . /app
+
+# Specify the command to run when the container starts
+CMD ["python3", "app.py"]
