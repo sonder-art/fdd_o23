@@ -1,0 +1,5 @@
+https://github.com/SantiVillaRam7/skills-review-pull-requests.git
+
+https://github.com/SantiVillaRam7/skills-resolve-merge-conflicts.git
+
+https://github.com/SantiVillaRam7/skills-introduction-to-github.git

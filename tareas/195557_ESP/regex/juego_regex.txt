@@ -1,0 +1,19 @@
+lvl 1:
+ es básicamente cualquier cadena de numberos, así que se utiliza \d+
+lvl 2:
+ [0-9a-f]{2}[:]){5}: 
+ 	[0-9a-f]{2}: quieres tomar dos caracteres que sean o de 0-9 o de a-f
+ 	[:]){5}: seguidos por ':' y 5 grupos de esas secuencias
+ ([0-9a-f]{2}): igual que antes sólo que ahora no buscas que terminen con :
+lvl 3:
+ todo lo que buscamos empieza con, ftp://, por lo que lo agregamos. 
+ ahora queremos agregar todo lo que le sigue a ftp://, por lo que agregamos cualquier cosa que no sea un '/', [^/]+, 
+ finalmente agregamos lo que tienen en común todas al final de la expresión lo cual es /pub/FreeBSD/
+ teniendo como expresión: ftp://[^/]+/pub/FreeBSD/
+lvl 4: \$(.*?)\$
+ queremos buscar cualquier expresión entre dos símbolos de $, entonces utilizamos (.*?), utilizamos el '?' porque queremos que busque la expresión más corta, en caso contrario buscaria toda la expresión o varias palabras
+lvl 5: ([0-9]{1,3}[.]){3}([0-9]{1,3})
+ queremos que busque grupos o de 1 o 2 o 3 números, seguidos por un punto. Finalmente para el último grupo el cual no tiene un punto al final, hacemos lo mismo quitando el [.]
+lvl 6: href="(.*?)"
+ queremos encontrar todas las expresiones que tengan 'href=' al inicio
+ despues buscamos cualquier expresion que este entre comillas.
