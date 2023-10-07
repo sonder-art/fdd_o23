@@ -1,3 +1,8 @@
+# .gitignore
+Algunos ambientes virtuales como `pyenv` pueden crear carpetas, asegurate de no subir estas carpetas. Esto lo puedes lograr omitiendo el add a estas careptas y aregandolas al .gitignore.  
+No se aceptaras tareas que traigan archivos binarios de python, solo debe subirse le codigo.  
+Crea tu `.gitignore` en esta carpeta o a nivel de tu carpeta de tareas, verifica como funciona el wild card notation para lograr que aplique a todas tus subcarpetas.
+
 # Pyenv
 
 ## Instrucciones para utilizar requirements.txt con .venv
