@@ -1,0 +1,4 @@
+Contenedor .env
+https://hub.docker.com/layers/miguelmonr/docker-fuenteso23/lat/images/sha256-40e295ca0877c798d2c1db6406ec1b3d23f534b8ddb62f96eb81223fda3357ac?context=explore
+
+Contenedor conda: stand by  :( me marca que hay problemas al instalar pandas

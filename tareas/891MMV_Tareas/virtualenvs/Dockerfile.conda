@@ -1,0 +1,21 @@
+#Docker File con conda
+# Use a base image with Python installed
+FROM continuumio/miniconda3
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy the requirements file into the container
+COPY environment_pandas.yml .
+
+# Create a virtual environment
+RUN conda env create -f environment_pandas.yml
+
+#Activando el ambiente
+SHELL ["/bin/bash", "-c"]
+RUN conda activate condaenv
+
+# Specify the command to run when the container starts
+CMD ["python", "app.py"]
+
+

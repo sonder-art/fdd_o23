@@ -1,4 +1,5 @@
 # Channels para usar conda
+name: condaenv
 channels:
   - defaults
 
