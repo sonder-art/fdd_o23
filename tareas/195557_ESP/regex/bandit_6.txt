@@ -1,0 +1,5 @@
+bandit 5-6
+ fue prueba y error hasta llegar al 'maybehere07', de ahi es abrir el archivo
+bandit 6-7
+ find / -user bandit7 -group bandit6 -size 33c -type f 2>/dev/null
+ la verdad no supe como encontrar el archivo y tuev que auxiliarme :)
