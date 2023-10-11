@@ -1,0 +1,20 @@
+1.- docker pull nombre_de_la_imagen:etiqueta 
+Sirve para descargar imágenes de contenedores desde un registro de Docker público o privado.
+2.- docker images
+Sirve para listar las imágenes de contenedores que están almacenadas en el sistema local.
+3.- docker run nombre_de_la_imagen:etiqueta
+Sirve para crear y ejecutar un nuevo contenedor basado en una imagen específica.
+Si se usa docker run -d nombre_de_la_imagen se obtiene el ID del contenedor que se crea de la imagen.
+Si usamos docker run -p puerto_host:puerto_contenedor nombre_del_contenedor mapeamos (o asignamos) puertos entre el host y el contenedor Docker. Lo cual permite que servicios dentro del contenedor, que escuchan en un puerto específico, sean accesibles desde fuera del contenedor, a través del puerti del host especificado.
+Con docker run --name nombre_del_contenedor -d nombre_de_la_imagen:etiqueta creamos un contenedor con un nombre personalizado.
+4.- docker ps
+Se utiliza para mostrar información sobre los contenedores de Docker que están ejecución en el sistema.
+Si se usa docker ps -a se pueden ver tanto aquellos contenedores que están en ejecución como los que han sido detenidos.
+5.- docker stop ID_del_contenedor
+Sirve para detener un contenedor Docker en ejecución de forma controlada.
+6.- docker start ID_del_contenedor
+Sirve para iniciar un contenedor Docker que previamente ha sido detenido.
+7.- docker logs ID_del_contenedor
+Sirve para ver el historial de conexiones a un contenedor.
+8.- docker exec -it ID_del_contenedor /bin/bash
+Sirve para ejecutar la shell interactiva en un contenedor Docker en ejecución.
