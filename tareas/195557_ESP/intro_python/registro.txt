@@ -1,0 +1,6 @@
+2023-10-10 14:47:03 - Se ejecutï¿½ el mï¿½todo crear con los argumentos: Ms, Kobayashi
+2023-10-10 14:47:03 - Se ejecutï¿½ el mï¿½todo obtener_info con los argumentos: 
+2023-10-10 14:47:03 - Se ejecutï¿½ el mï¿½todo modificar con los argumentos: Tohru, Kobayashi
+2023-10-10 14:47:53 - Se ejecutó el método crear con los argumentos: Ms, Kobayashi
+2023-10-10 14:47:53 - Se ejecutó el método obtener_info con los argumentos: 
+2023-10-10 14:47:53 - Se ejecutó el método modificar con los argumentos: Tohru, Kobayashi
