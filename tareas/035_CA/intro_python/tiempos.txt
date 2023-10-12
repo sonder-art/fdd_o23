@@ -1,0 +1,2 @@
+funcion,n,tiempo
+
