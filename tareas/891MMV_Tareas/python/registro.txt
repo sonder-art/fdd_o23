@@ -1,0 +1,3 @@
+[2023-10-17 9:51:29] Se ejecuto el metodo: crear con los argumentos: (<__main__.Usuario object at 0x1100bf550>, 'MS', 'Kobayashi') 
+[2023-10-17 9:51:29] Se ejecuto el metodo: mostrar_info con los argumentos: (<__main__.Usuario object at 0x1100bf550>,) 
+[2023-10-17 9:51:29] Se ejecuto el metodo: modificar con los argumentos: (<__main__.Usuario object at 0x1100bf550>, 'Thoru', 'Kobayas') 
