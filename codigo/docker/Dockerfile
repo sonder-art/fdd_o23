@@ -13,5 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copia todo el código al contenedor
 COPY . /app
 
+#RUN touch archivo_imagen_docckerfile.txt
+
 # Define el comando por defecto para ejecutar la aplicación
-CMD ["/bin/bash"]
+CMD ["python", "app.py"]
