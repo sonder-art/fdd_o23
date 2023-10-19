@@ -1,0 +1,4 @@
+[2023-10-15 17:02:21] - Se ejecutó el método obtener_info con los argumentos: (<__main__.Usuario object at 0x7f453c189fd0>,){}
+[2023-10-15 17:02:21] - Se ejecutó el método modificar con los argumentos: (<__main__.Usuario object at 0x7f453c189fd0>, 'Tohru', 'Kobayashi'){}
+[2023-10-15 18:45:53] - Se ejecutó el método obtener_info con los argumentos: (<__main__.Usuario object at 0x7f14486b8ad0>,){}
+[2023-10-15 18:45:53] - Se ejecutó el método modificar con los argumentos: (<__main__.Usuario object at 0x7f14486b8ad0>, 'Tohru', 'Kobayashi'){}
