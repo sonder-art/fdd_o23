@@ -13,8 +13,5 @@ ENV PATH /opt/conda/envs/condas/bin:$PATH
 
 COPY app.py app.py
 
-RUN python app.py
-
-
 # Define el comando por defecto para ejecutar la aplicación
 CMD ["python", "app.py"]
