@@ -1,0 +1,27 @@
+CMD ["bash"]
+
+LABEL maintainer=Anaconda, Inc
+
+ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
+
+RUN /bin/sh -c apt-get update
+
+ENV PATH=/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+CMD ["/bin/bash"]
+
+ARG CONDA_VERSION=py311_23.5.2-0
+
+RUN |1 CONDA_VERSION=py311_23.5.2-0 /bin/sh -c
+
+WORKDIR /app
+
+COPY environment_pandas.yml . # buildkit
+
+RUN /bin/sh -c conda env
+
+SHELL [conda run -n entorno
+
+COPY . . # buildkit
+
+CMD ["python" "app.py"]
