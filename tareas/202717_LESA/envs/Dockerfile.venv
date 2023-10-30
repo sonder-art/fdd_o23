@@ -12,7 +12,6 @@ COPY requirements_pandas.txt requirements_pandas.txt
 RUN pip install -r requirements_pandas.txt
 
 COPY app.py app.py
-RUN python app.py
 
 # Define el comando por defecto para ejecutar la aplicación
 CMD ["python", "app.py"]
