@@ -1,0 +1,3 @@
+[2023-10-10 18:18:33] - Se ejecutó el método crear con los argumentos: (<__main__.Usuario object at 0x7f4b9404ca90>, 'Ms', 'Kobayashi')
+[2023-10-10 18:18:33] - Se ejecutó el método obtener_info con los argumentos: (<__main__.Usuario object at 0x7f4b9404ca90>,)
+[2023-10-10 18:18:33] - Se ejecutó el método modificar con los argumentos: (<__main__.Usuario object at 0x7f4b9404ca90>, 'Tohru', 'Kobayashi')

@@ -1,0 +1,13 @@
+
+ 2023-10-15 22:29:11.694773 - Se ejecuto obtener_info con los argumentos (<__main__.Usuario object at 0x10656a450>,) , {}
+ 2023-10-15 22:29:11.700846 - Se ejecuto modificar con los argumentos (<__main__.Usuario object at 0x10656a450>, 'Juan', 'Perez') , {}
+ 2023-10-15 22:29:11.701382 - Se ejecuto obtener_info con los argumentos (<__main__.Usuario object at 0x10656a450>,) , {}
+ 2023-10-15 22:45:19.349399 - Se ejecuto obtener_info con los argumentos (<__main__.Usuario object at 0x106b31250>,) , {}
+ 2023-10-15 22:45:19.352116 - Se ejecuto modificar con los argumentos (<__main__.Usuario object at 0x106b31250>, 'Juan', 'Perez') , {}
+ 2023-10-15 22:45:19.352580 - Se ejecuto obtener_info con los argumentos (<__main__.Usuario object at 0x106b31250>,) , {}
+ 2023-10-15 22:45:20.417518 - Se ejecuto obtener_info con los argumentos (<__main__.Usuario object at 0x106b30110>,) , {}
+ 2023-10-15 22:45:20.419380 - Se ejecuto modificar con los argumentos (<__main__.Usuario object at 0x106b30110>, 'Juan', 'Perez') , {}
+ 2023-10-15 22:45:20.423419 - Se ejecuto obtener_info con los argumentos (<__main__.Usuario object at 0x106b30110>,) , {}
+ 2023-10-15 22:48:51.273502 - Se ejecuto obtener_info con los argumentos (<__main__.Usuario object at 0x106d13750>,) , {}
+ 2023-10-15 22:48:51.279743 - Se ejecuto modificar con los argumentos (<__main__.Usuario object at 0x106d13750>, 'Juan', 'Perez') , {}
+ 2023-10-15 22:48:51.280553 - Se ejecuto obtener_info con los argumentos (<__main__.Usuario object at 0x106d13750>,) , {}
