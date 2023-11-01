@@ -1,0 +1,19 @@
+# Use a base image with Conda installed
+FROM continuumio/miniconda3
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy the environment.yml file into the container
+COPY environment_pandas.yml .
+
+# Create a Conda environment and activate it
+RUN conda env create -f environment_pandas.yml --debug
+SHELL ["conda", "run", "-n", "myenv", "/bin/bash", "-c"]
+
+#copia
+COPY . /app
+
+# Specify the command to run when the container starts
+CMD ["python", "app.py"]
+

@@ -1,0 +1,3 @@
+2023-10-11 09:40:31.624712 - Se ejecutó el método crear con los argumentos: ('Ms', 'Kobayashi')
+2023-10-11 09:40:31.637122 - Se ejecutó el método obtener_info con los argumentos: ()
+2023-10-11 09:40:31.637811 - Se ejecutó el método modificar con los argumentos: ('Tohru', 'Kobayashi')

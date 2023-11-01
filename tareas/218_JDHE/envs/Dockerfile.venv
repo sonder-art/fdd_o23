@@ -1,0 +1,17 @@
+# Utiliza una imagen base de Python
+FROM python:3.8
+
+# Establece el directorio de trabajo en el contenedor
+WORKDIR /app
+
+# Copia el archivo requirements_pandas.txt al contenedor
+COPY requirements_pandas.txt .
+
+# Instala las dependencias del archivo requirements_pandas.txt
+RUN pip install -r requirements_pandas.txt
+
+# Copia el archivo app.py al contenedor
+COPY app.py .
+
+# Ejecuta el archivo app.py
+CMD ["python", "app.py"]

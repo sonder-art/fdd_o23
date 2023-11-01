@@ -1,0 +1,32 @@
+# Dockerfile.venv
+
+# Utiliza una imagen base de Python para ARM64
+FROM arm64v8/python:3.9
+
+# Establece el directorio de trabajo
+WORKDIR /app
+
+# Descarga e instala Miniconda3 en una ubicación específica
+RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh -O miniconda.sh \
+    && bash miniconda.sh -b -p /opt/conda \
+    && rm miniconda.sh
+
+
+# Configura la variable de entorno PATH para incluir Conda
+ENV PATH="/opt/conda/bin:$PATH"
+
+# Configura Conda para la activación automática del entorno
+RUN echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc \
+    && echo "conda activate base" >> ~/.bashrc
+
+# Copia el archivo de entorno al contenedor
+COPY environment_pandas.yml .
+
+# Crea un entorno conda y lo activa
+RUN conda env create -f environment_pandas.yml
+
+# Copia la aplicación al contenedor
+COPY . /app
+
+# Comando que se ejecutará al lanzar el contenedor
+CMD ["/opt/conda/envs/environment_pandas/bin/python", "app.py"]

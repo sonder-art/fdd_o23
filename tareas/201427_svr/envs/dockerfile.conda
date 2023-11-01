@@ -5,7 +5,7 @@ FROM continuumio/miniconda3:latest
 WORKDIR /app
 
 # Copy the environment.yml file into the container at /app
-COPY environment_pandas.yml .
+COPY environment_pandas.yml environment_pandas.yml
 
 # Create the Conda environment from the environment.yml file
 RUN conda env create --name env -f environment_pandas.yml
@@ -14,5 +14,6 @@ RUN conda env create --name env -f environment_pandas.yml
 RUN echo "source activate env" > ~/.bashrc
 ENV PATH /opt/conda/envs/env/bin:$PATH
 
-# Make sure the environment is activated
-RUN echo "conda info --envs" && conda info --envs
+COPY app.py app.py
+
+CMD ["python", "app.py"]

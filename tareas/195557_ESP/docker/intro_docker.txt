@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 https://hub.docker.com/repository/docker/esandovalp/intro_docker/
 
+=======
+https://hub.docker.com/repository/docker/esandovalp/intro_docker/general
+>>>>>>> main
