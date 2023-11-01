@@ -1,0 +1,20 @@
+#Docker File con conda
+# Use a base image with Python installed
+FROM python:3.9-slim
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy the requirements file into the container
+COPY requirements.txt .
+
+# Create a virtual environment
+RUN conda env create -f environment_pandas.yml
+
+#Activando el ambiente
+RUN conda activate condaenv 
+
+# Specify the command to run when the container starts
+CMD ["python", "app.py"]
+
+
