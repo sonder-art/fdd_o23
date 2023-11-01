@@ -1,0 +1,4 @@
+Sé que no la estoy entregando tarde sino tardísimo pero lo logramos :) tomo la ayuda de 3 estudiantes de ciencia de datos y un ex facultad menor 
+
+https://hub.docker.com/repository/docker/majo2103/imagenvenv/general
+https://hub.docker.com/repository/docker/majo2103/imagen_conda/general
