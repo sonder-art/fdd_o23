@@ -1,0 +1,12 @@
+# Channels para usar conda
+name:envconda
+
+channels:
+  - defaults
+
+# Dependencias de Conda
+dependencies:
+  - conda-forge::pandas
+  - pip
+  - pip:
+    - ydata-profiling
