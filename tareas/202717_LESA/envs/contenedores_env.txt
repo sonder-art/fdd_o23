@@ -1,0 +1,4 @@
+Imagen con venv:
+https://hub.docker.com/layers/luisesuarezar/docker_1/envs/images/sha256-009ea786a8628608e8d4c6dd94c209f0a6774ef36cd852ce06cad3fe38050566?context=repo
+Imagen con conda:
+https://hub.docker.com/layers/luisesuarezar/docker_1/condas/images/sha256-654432be87b1143a1fe62b8a25e8d8b68e49548cddd451d151cda9a897f17d05?context=repo

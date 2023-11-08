@@ -1,0 +1,16 @@
+# Usar una imagen base de Miniconda
+FROM continuumio/miniconda3
+
+# Establecer el directorio de trabajo
+WORKDIR /app
+
+# Copiar el environment_pandas.yml y app.py al contenedor
+COPY environment_pandas.yml app.py ./
+
+# Crear el ambiente conda en una ruta personalizada y activarlo
+RUN conda env create -f environment_pandas.yml -p /opt/mi_entorno && \
+    echo "source activate /opt/mi_entorno" > ~/.bashrc
+
+# Establecer el comando para ejecutar app.py cuando se inicie el contenedor
+CMD ["/bin/bash", "-c", "source activate /opt/mi_entorno && python app.py"]
+

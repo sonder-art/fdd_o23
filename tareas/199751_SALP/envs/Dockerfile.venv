@@ -1,0 +1,19 @@
+# Usa una imagen base de Python
+FROM python:3.9-slim
+
+# Establece el directorio de trabajo en /app
+WORKDIR /app
+
+RUN python -m venv /opt/venv
+# Habilita el entorno
+ENV PATH="/opt/venv/bin:$PATH"
+
+# Codigo para manejar ambientes y el codigo necesario
+COPY ./requirements.txt /app/requirements.txt
+
+RUN pip install -r requirements.txt
+
+COPY ./app.py /app/app.py
+
+# Define el comando por defecto para ejecutar la aplicación
+CMD ["python", "app.py"]

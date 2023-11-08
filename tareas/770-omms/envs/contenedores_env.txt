@@ -1,0 +1,3 @@
+venv: docker.io/omarti34/imagenvenv_770-omms
+conda: docker.io/omarti34/imagenconda_770-omms
+

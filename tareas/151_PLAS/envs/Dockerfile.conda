@@ -1,0 +1,17 @@
+# Usa una imagen base de Conda
+FROM continuumio/miniconda3:latest
+
+# Establece el directorio de trabajo en /app
+WORKDIR /app
+
+# Copia el archivo de requisitos al contenedor
+COPY environment_pandas.yml .
+
+# Crea un ambiente virtual de conda
+RUN conda env create -f environment_pandas.yml
+
+# Copia el código de python al contenedor
+COPY app.py /app
+
+# Define el comando por defecto para ejecutar la aplicación
+CMD ["conda", "run", "-n", "entorno_conda_docker","python", "app.py"]

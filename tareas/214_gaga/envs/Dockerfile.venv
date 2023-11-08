@@ -1,0 +1,23 @@
+# Dockerfile.venv
+
+# Utiliza una imagen base de Python
+FROM python:3.9
+
+# Establece el directorio de trabajo
+WORKDIR /app
+
+# Copia los archivos de requerimientos al contenedor
+COPY requirements_pandas.txt .
+
+# Crea y activa un entorno virtual, e instala las dependencias
+RUN python -m venv venv
+ENV PATH="/app/venv/bin:$PATH"  
+RUN /app/venv/bin/pip install --no-cache-dir -r requirements_pandas.txt
+
+
+# Copia la aplicación al contenedor
+COPY . /app
+
+# Comando que se ejecutará al lanzar el contenedor
+CMD ["python", "app.py"]
+

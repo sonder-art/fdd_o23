@@ -1,17 +1,25 @@
-# Using a base miniconda3 image
+# Use an official Miniconda runtime as a parent image
 FROM continuumio/miniconda3
 
 # Set the working directory to /app
 WORKDIR /app
 
-# Copy the environment file to the container
+# Copy the current directory contents into the container at /app
 COPY environment_pandas.yml /app/
+COPY requirements_pandas.txt /app/
+COPY app.py /app/
 
-# Create a new conda environment from the environment file
-RUN conda env create -f environment_pandas.yml
+# Install any conda packages from the environment file
+RUN conda install -y --file environment_pandas.yml
+
+# Install pip dependencies
+RUN pip install --no-cache-dir -r requirements_pandas.txt
 
 # Make port 80 available to the world outside this container
 EXPOSE 80
 
-# Activate the conda environment and run app.py when the container launches
-CMD [ "/bin/bash", "-c", "source activate $(head -1 environment_pandas.yml | cut -d' ' -f2) && python app.py" ]
+# Define environment variable
+ENV NAME World
+
+# Run app.py when the container launches
+CMD ["python", "app.py"]

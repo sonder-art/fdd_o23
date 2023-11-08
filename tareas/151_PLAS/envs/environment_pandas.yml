@@ -1,0 +1,13 @@
+# Nombre del ambiente
+name: entorno_conda_docker
+
+# Channels para usar conda
+channels:
+  - defaults
+
+# Dependencias de Conda
+dependencies:
+  - conda-forge::pandas
+  - pip
+  - pip:
+    - ydata-profiling

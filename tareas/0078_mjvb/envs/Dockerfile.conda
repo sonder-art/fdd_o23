@@ -1,0 +1,15 @@
+# Usa una imagen base de conda
+FROM continuumio/miniconda3:latest
+
+# Establece el directorio de trabajo en /app
+WORKDIR /app
+
+# Codigo para manejar ambientes y el codigo necesario
+COPY environment_pandas.yml .
+COPY app.py /app
+# Define el comando por defecto para ejecutar la aplicación
+RUN conda env create -f environment_pandas.yml --prefix .
+
+
+#hace que todo corra
+CMD ["conda", "run", "-n", "entorno_conda","python", "app.py"]

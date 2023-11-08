@@ -1,0 +1,2 @@
+Link al repositorio con las imagenes:
+https://hub.docker.com/repository/docker/palazraks/python_envs/tags?page=1&ordering=last_updated
