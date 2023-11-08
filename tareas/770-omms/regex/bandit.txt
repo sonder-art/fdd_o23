@@ -1,0 +1,47 @@
+Juego de bandit 
+
+Bandit 0 
+-	ssh bandit0@bandit.labs.overthewire.org -p 2220  
+-	utilice ese codigo para entrar al juego, ese codigo se ira repitidendo pero cambiando el numero que corresponde al nivel 
+Bandit 0
+-	la contraseña esta un archivo readme por lo que aplico los siguientes comando 
+-	ls -aplk 
+-	cat readme
+-	NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+Bandit 1 
+-	La contrseña esta en un archivo llamado – 
+-	Por lo que al usar cat – no funciona tenemos que poner 
+-	Cat ./- para especificar que es un archivo 
+-	rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+bandit 2
+-	abrir el archivo llamado spaces in this filename 
+-	cat “spaces in this filename”
+-	aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+bandit 3
+-	abrir archive oculto en carpeta llamada inhere/
+-	cd inhere/
+-	ls -aplk
+-	cat .hidden 
+-	2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+Bandit4
+-	ls -aplk
+-	cd inhere/
+-	   ls -aplk
+-	   find -type f -exec file {} \;
+-	   cat ./-file07
+-	lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+bandit 5
+-	cd inhere/
+-	ls -aplk 
+-	find -type f -size 1033c ! -executable -exec cat {} +
+-	P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+Bandit 6
+-	find / -type f -user bandit7 -group bandit6 -size 33c 
+-	luego busque uno que no dijera que no tengo permiso 
+-	cat /var/lib/dpkg/info/bandit7.password
+-	z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+
+bandit 7
+
+-	cat data.txt | grep “millionth”
+-	TESKZC0XvTetK0S9xNwm25STk5iWrBvP
