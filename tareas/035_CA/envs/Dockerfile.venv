@@ -1,0 +1,40 @@
+ADD file ... in /
+
+CMD ["bash"]
+
+ENV PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+ENV LANG=C.UTF-8
+
+RUN /bin/sh -c set -eux;
+
+ENV GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568
+
+ENV PYTHON_VERSION=3.9.18
+
+RUN /bin/sh -c set -eux;
+
+RUN /bin/sh -c set -eux;
+
+ENV PYTHON_PIP_VERSION=23.0.1
+
+ENV PYTHON_SETUPTOOLS_VERSION=58.1.0
+
+ENV PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/9af82b715db434abb94a0a6f3569f43e72157346/public/get-pip.py
+
+ENV PYTHON_GET_PIP_SHA256=45a2bb8bf2bb5eff16fdd00faef6f29731831c7c59bd9fc2bf1f3bed511ff1fe
+
+RUN /bin/sh -c set -eux;
+
+CMD ["python3"]
+
+WORKDIR /app
+
+COPY requirements.txt . # buildkit
+
+RUN /bin/sh -c pip install
+
+COPY . /app # buildkit
+
+CMD ["python" "app.py"]
+

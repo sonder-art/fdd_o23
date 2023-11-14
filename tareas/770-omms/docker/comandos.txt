@@ -1,0 +1,48 @@
+docker images:
+Lista todas las imágenes disponibles en tu sistema Docker, incluyendo su ID, repositorio, etiqueta (versión), fecha de creación y tamaño.
+
+docker run nameImage:
+Inicia un contenedor a partir de la imagen especificada, creando una instancia del contenedor basada en esa imagen.
+
+docker ps:
+Muestra una lista de los contenedores en ejecución, incluyendo el ID del contenedor, la imagen en la que se basa y los puertos mapeados.
+
+docker run -d nameContainer:
+Inicia un contenedor en segundo plano (modo detach), lo que significa que se ejecuta en segundo plano y muestra solo el ID del contenedor.
+
+docker stop dockID:
+Detiene un contenedor en ejecución utilizando su ID.
+
+docker start dockID:
+Reinicia un contenedor previamente detenido utilizando su ID.
+
+docker ps -a:
+Muestra todos los contenedores, ya sean que estén en ejecución o detenidos.
+
+docker run nameImageVersion:
+Ejecuta la imagen especificada, descargándola si no está disponible localmente, incluso si no se encuentra en tu máquina.
+
+docker run -p portHost:containerPort nameImage:
+Ejecuta un contenedor y mapea un puerto del host a un puerto específico del contenedor.
+
+docker run -p portHost:containerPort nameImage -d:
+Similar al anterior, pero ejecuta el contenedor en segundo plano (modo detach).
+
+docker pull:
+Descarga una imagen de Docker desde un registro (como Docker Hub) al sistema local, sin necesidad de ejecutar un contenedor.
+
+docker logs containerID:
+Muestra los logs de un contenedor específico.
+
+docker run -d puertoHost:containerPort --name nombreContenedor imagenBase:
+Ejecuta un contenedor en segundo plano y mapea un puerto del host a un puerto del contenedor, además de asignar un nombre al contenedor.
+
+docker exec -it containerID /bin/bash:
+Permite ejecutar un shell interactivo dentro de un contenedor en ejecución, utilizando su ID.
+
+docker --help:
+Muestra información y ayuda sobre los comandos de Docker.
+
+docker exec -it nameContainer /bin/bash:
+Similar al anterior, pero permite ejecutar un shell interactivo dentro de un contenedor utilizando su nombre en lugar de su ID.
+

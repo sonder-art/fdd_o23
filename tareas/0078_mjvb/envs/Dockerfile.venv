@@ -1,0 +1,18 @@
+# Usa una imagen base de Python
+FROM python:3.9-slim
+
+# Establece el directorio de trabajo en /app
+WORKDIR /app
+
+# Codigo para manejar ambientes y el codigo necesario
+COPY requirements_pandas.txt .
+COPY app.py .
+RUN python -m venv .venv
+SHELL ["/bin/bash","-c"]
+RUN source .venv/bin/activate
+RUN pip install -r requirements_pandas.txt
+
+SHELL ["/bin/sh","-c"]
+# Define el comando por defecto para ejecutar la aplicación
+CMD ["python", "app.py"]
+
