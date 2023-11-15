@@ -1,0 +1,8 @@
+name,accuracy,type,power,pp
+lick,100.0,ghost,30.0,30
+smog,70.0,poison,30.0,20
+poison-gas,90.0,poison,,40
+destiny-bond,,ghost,,5
+perish-song,,normal,,5
+mean-look,,normal,,5
+shadow-punch,,ghost,60.0,20
