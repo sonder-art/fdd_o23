@@ -1,0 +1,1 @@
+[{"id": "int", "loan_amnt": "int", "annual_inc": "int", "term": "int", "percentage_of_inc_to_fullfill": "((loan_amnt/(term/12))/annual_inc)>percentage_of_inc_to_fullfill@mean"}, {"acc_now_delinq": ">0"}]
