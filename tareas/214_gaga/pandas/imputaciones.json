@@ -1,0 +1,470 @@
+{
+  "id": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "loan_amnt": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "funded_amnt": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "funded_amnt_inv": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "term": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "int_rate": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "installment": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "grade": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "sub_grade": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "emp_title": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "emp_length": {
+    "estrategia": "eliminar_renglones",
+    "valor": null
+  },
+  "home_ownership": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "annual_inc": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "verification_status": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "issue_d": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "loan_status": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "pymnt_plan": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "desc": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "purpose": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "title": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "zip_code": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "addr_state": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "dti": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "delinq_2yrs": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "earliest_cr_line": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "fico_range_low": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "fico_range_high": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "inq_last_6mths": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "mths_since_last_delinq": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "mths_since_last_record": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "open_acc": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "pub_rec": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "revol_bal": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "revol_util": {
+    "estrategia": "eliminar_renglones",
+    "valor": null
+  },
+  "total_acc": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "initial_list_status": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "out_prncp": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "out_prncp_inv": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "total_pymnt": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "total_pymnt_inv": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "total_rec_prncp": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "total_rec_int": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "total_rec_late_fee": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "recoveries": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "collection_recovery_fee": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "last_pymnt_d": {
+    "estrategia": "eliminar_renglones",
+    "valor": null
+  },
+  "last_pymnt_amnt": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "next_pymnt_d": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "last_credit_pull_d": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "last_fico_range_high": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "last_fico_range_low": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "collections_12_mths_ex_med": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "mths_since_last_major_derog": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "policy_code": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "acc_now_delinq": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "tot_coll_amt": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "tot_cur_bal": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "total_rev_hi_lim": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "acc_open_past_24mths": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "avg_cur_bal": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "bc_open_to_buy": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "bc_util": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "chargeoff_within_12_mths": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "delinq_amnt": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "mo_sin_old_il_acct": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "mo_sin_old_rev_tl_op": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "mo_sin_rcnt_rev_tl_op": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "mo_sin_rcnt_tl": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "mort_acc": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "mths_since_recent_bc": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "mths_since_recent_bc_dlq": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "mths_since_recent_inq": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "mths_since_recent_revol_delinq": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "num_accts_ever_120_pd": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "num_actv_bc_tl": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "num_actv_rev_tl": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "num_bc_sats": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "num_bc_tl": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "num_il_tl": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "num_op_rev_tl": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "num_rev_accts": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "num_rev_tl_bal_gt_0": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "num_sats": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "num_tl_120dpd_2m": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "num_tl_30dpd": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "num_tl_90g_dpd_24m": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "num_tl_op_past_12m": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "pct_tl_nvr_dlq": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "percent_bc_gt_75": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "pub_rec_bankruptcies": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "tax_liens": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "tot_hi_cred_lim": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "total_bal_ex_mort": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "total_bc_limit": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "total_il_high_credit_limit": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "hardship_flag": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "hardship_type": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "hardship_reason": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "hardship_status": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "deferral_term": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "hardship_amount": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "hardship_start_date": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "hardship_end_date": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "payment_plan_start_date": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "hardship_length": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "hardship_dpd": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "hardship_loan_status": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "orig_projected_additional_accrued_interest": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "hardship_payoff_balance_amount": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "hardship_last_payment_amount": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "debt_settlement_flag": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "debt_settlement_flag_date": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "settlement_status": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "settlement_date": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "settlement_amount": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "settlement_percentage": {
+    "estrategia": "ninguna",
+    "valor": null
+  },
+  "settlement_term": {
+    "estrategia": "ninguna",
+    "valor": null
+  }
+}
