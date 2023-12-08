@@ -1,0 +1,23 @@
+# Utiliza una imagen base de Python
+FROM python:3.9-slim
+
+# Establece el directorio de trabajo
+WORKDIR /app
+
+# Copia los requisitos al contenedor
+COPY requirements_pandas.txt .
+
+# Crea ambiente virtual
+RUN python -m venv .venv
+
+# Define la ruta del env
+ENV PATH="/app/.venv/bin:$PATH"
+
+# Instala dependencias
+RUN pip install -r requirements_pandas.txt
+
+# Copia el código python al contenedor
+COPY app.py /app
+
+# Comando a ejecutar para lanzar el contenedor
+CMD ["python", "app.py"]

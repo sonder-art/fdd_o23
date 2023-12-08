@@ -1,0 +1,2 @@
+https://hub.docker.com/repository/docker/genarorocha/image_conda/general
+https://hub.docker.com/repository/docker/genarorocha/image_venv/general
