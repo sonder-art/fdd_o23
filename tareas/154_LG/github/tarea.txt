@@ -1,1 +1,7 @@
-link
+Links a repos de tutoriales:
+1. Intro
+https://github.com/GenaroRocha/skills-introduction-to-github
+2. Review pull requests
+https://github.com/GenaroRocha/skills-review-pull-requests
+3. Resolve merge conflicts
+https://github.com/GenaroRocha/skills-resolve-merge-conflicts
