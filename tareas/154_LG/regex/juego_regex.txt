@@ -1,0 +1,17 @@
+1. Sólo debemos regresar números enteros sin importar la cantidad de dígitos
+\d+
+
+2. Extraemos direcciones de forma que hay 2 elementos seguidos de dos puntos 6 veces, esos elementos pueden ser [0-9, a-z o A-Z]
+\w{2}:\w{2}:\w{2}:\w{2}:\w{2}:\w{2}
+
+3. Extraemos direcciones donde siempre aparece ftp:// y luego una D final
+ftp://.+D/
+
+4. Extraemos expresiones LaTex que comienzan y terminan con $, y que pueden incluir $ en la estructura también
+\$[^$]*\$
+
+5. Extracción de direcciones ip
+(\d{2,3}\.){3}\d{2,3}
+
+6. Extracción de vínculos href seguido de comillas o apóstrofes
+href=["']([^"']+)["']
