@@ -1,0 +1,594 @@
+{
+    "loan_amnt": {
+        "estrategia": "mean",
+        "valor": 14886.93
+    },
+    "funded_amnt": {
+        "estrategia": "mean",
+        "valor": 14886.93
+    },
+    "funded_amnt_inv": {
+        "estrategia": "mean",
+        "valor": 14883.9105
+    },
+    "term": {
+        "estrategia": "no_imputada",
+        "valor": null
+    },
+    "int_rate": {
+        "estrategia": "mean",
+        "valor": 13.278073399995797
+    },
+    "installment": {
+        "estrategia": "mean",
+        "valor": 437.33182440002366
+    },
+    "grade": {
+        "estrategia": "no_imputada",
+        "valor": null
+    },
+    "sub_grade": {
+        "estrategia": "mode",
+        "valor": "C1"
+    },
+    "emp_title": {
+        "estrategia": "mode",
+        "valor": "missing"
+    },
+    "emp_length": {
+        "estrategia": "mode",
+        "valor": "10+ years"
+    },
+    "home_ownership": {
+        "estrategia": "mode",
+        "valor": "MORTGAGE"
+    },
+    "annual_inc": {
+        "estrategia": "mean",
+        "valor": 74689.24258249998
+    },
+    "verification_status": {
+        "estrategia": "mode",
+        "valor": "Source Verified"
+    },
+    "issue_d": {
+        "estrategia": "mode",
+        "valor": "Oct-2014"
+    },
+    "loan_status": {
+        "estrategia": "mode",
+        "valor": "Fully Paid"
+    },
+    "pymnt_plan": {
+        "estrategia": "mode",
+        "valor": "n"
+    },
+    "desc": {
+        "estrategia": "mode",
+        "valor": "missing"
+    },
+    "purpose": {
+        "estrategia": "mode",
+        "valor": "debt_consolidation"
+    },
+    "title": {
+        "estrategia": "mode",
+        "valor": "Debt consolidation"
+    },
+    "zip_code": {
+        "estrategia": "mode",
+        "valor": "750xx"
+    },
+    "addr_state": {
+        "estrategia": "mode",
+        "valor": "CA"
+    },
+    "dti": {
+        "estrategia": "mean",
+        "valor": 18.76978660000006
+    },
+    "delinq_2yrs": {
+        "estrategia": "mean",
+        "valor": 0.34392
+    },
+    "earliest_cr_line": {
+        "estrategia": "mode",
+        "valor": "Aug-2001"
+    },
+    "fico_range_low": {
+        "estrategia": "mean",
+        "valor": 692.5798
+    },
+    "fico_range_high": {
+        "estrategia": "mean",
+        "valor": 696.57987
+    },
+    "inq_last_6mths": {
+        "estrategia": "mean",
+        "valor": 0.62189
+    },
+    "mths_since_last_delinq": {
+        "estrategia": "mean",
+        "valor": 33.52252568379807
+    },
+    "mths_since_last_record": {
+        "estrategia": "mean",
+        "valor": 69.39421467852557
+    },
+    "open_acc": {
+        "estrategia": "mean",
+        "valor": 11.83275
+    },
+    "pub_rec": {
+        "estrategia": "mean",
+        "valor": 0.21456
+    },
+    "revol_bal": {
+        "estrategia": "mean",
+        "valor": 17588.06238
+    },
+    "revol_util": {
+        "estrategia": "mean",
+        "valor": 55.43498459137117
+    },
+    "total_acc": {
+        "estrategia": "mean",
+        "valor": 26.03486
+    },
+    "initial_list_status": {
+        "estrategia": "mode",
+        "valor": "w"
+    },
+    "out_prncp": {
+        "estrategia": "mean",
+        "valor": 1215.1084605000065
+    },
+    "out_prncp_inv": {
+        "estrategia": "mean",
+        "valor": 1214.906466700006
+    },
+    "total_pymnt": {
+        "estrategia": "mean",
+        "valor": 15210.210257400804
+    },
+    "total_pymnt_inv": {
+        "estrategia": "mean",
+        "valor": 15207.12168470019
+    },
+    "total_rec_prncp": {
+        "estrategia": "mean",
+        "valor": 11978.875624699958
+    },
+    "total_rec_int": {
+        "estrategia": "mean",
+        "valor": 3040.957017699986
+    },
+    "total_rec_late_fee": {
+        "estrategia": "mean",
+        "valor": 1.2300369003639011
+    },
+    "recoveries": {
+        "estrategia": "mean",
+        "valor": 189.14756099939254
+    },
+    "collection_recovery_fee": {
+        "estrategia": "mean",
+        "valor": 31.416890794995414
+    },
+    "last_pymnt_d": {
+        "estrategia": "mode",
+        "valor": "Dec-2017"
+    },
+    "last_pymnt_amnt": {
+        "estrategia": "mean",
+        "valor": 4165.111319039904
+    },
+    "next_pymnt_d": {
+        "estrategia": "mode",
+        "valor": "missing"
+    },
+    "last_credit_pull_d": {
+        "estrategia": "mode",
+        "valor": "Dec-2017"
+    },
+    "last_fico_range_high": {
+        "estrategia": "mean",
+        "valor": 677.92764
+    },
+    "last_fico_range_low": {
+        "estrategia": "mean",
+        "valor": 664.18765
+    },
+    "collections_12_mths_ex_med": {
+        "estrategia": "mean",
+        "valor": 0.01701
+    },
+    "mths_since_last_major_derog": {
+        "estrategia": "mean",
+        "valor": 43.4512365340627
+    },
+    "policy_code": {
+        "estrategia": "mean",
+        "valor": 1.0
+    },
+    "application_type": {
+        "estrategia": "mode",
+        "valor": "Individual"
+    },
+    "annual_inc_joint": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "dti_joint": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "verification_status_joint": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "acc_now_delinq": {
+        "estrategia": "mean",
+        "valor": 0.00638
+    },
+    "tot_coll_amt": {
+        "estrategia": "mean",
+        "valor": 235.46884
+    },
+    "tot_cur_bal": {
+        "estrategia": "mean",
+        "valor": 140910.91011
+    },
+    "open_acc_6m": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "open_act_il": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "open_il_12m": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "open_il_24m": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "mths_since_rcnt_il": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "total_bal_il": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "il_util": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "open_rv_12m": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "open_rv_24m": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "max_bal_bc": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "all_util": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "total_rev_hi_lim": {
+        "estrategia": "mean",
+        "valor": 32526.9722
+    },
+    "inq_fi": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "total_cu_tl": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "inq_last_12m": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "acc_open_past_24mths": {
+        "estrategia": "mean",
+        "valor": 4.52473
+    },
+    "avg_cur_bal": {
+        "estrategia": "mean",
+        "valor": 13337.70501
+    },
+    "bc_open_to_buy": {
+        "estrategia": "mean",
+        "valor": 8956.451808020945
+    },
+    "bc_util": {
+        "estrategia": "mean",
+        "valor": 64.56002206433192
+    },
+    "chargeoff_within_12_mths": {
+        "estrategia": "mean",
+        "valor": 0.0104
+    },
+    "delinq_amnt": {
+        "estrategia": "mean",
+        "valor": 11.5565
+    },
+    "mo_sin_old_il_acct": {
+        "estrategia": "mean",
+        "valor": 127.73700163928524
+    },
+    "mo_sin_old_rev_tl_op": {
+        "estrategia": "mean",
+        "valor": 185.82682
+    },
+    "mo_sin_rcnt_rev_tl_op": {
+        "estrategia": "mean",
+        "valor": 13.13111
+    },
+    "mo_sin_rcnt_tl": {
+        "estrategia": "mean",
+        "valor": 7.94572
+    },
+    "mort_acc": {
+        "estrategia": "mean",
+        "valor": 1.78588
+    },
+    "mths_since_recent_bc": {
+        "estrategia": "mean",
+        "valor": 24.435205303634856
+    },
+    "mths_since_recent_bc_dlq": {
+        "estrategia": "mean",
+        "valor": 39.633868833899356
+    },
+    "mths_since_recent_inq": {
+        "estrategia": "mean",
+        "valor": 6.7667716395738235
+    },
+    "mths_since_recent_revol_delinq": {
+        "estrategia": "mean",
+        "valor": 35.61543138231309
+    },
+    "num_accts_ever_120_pd": {
+        "estrategia": "mean",
+        "valor": 0.52372
+    },
+    "num_actv_bc_tl": {
+        "estrategia": "mean",
+        "valor": 3.72897
+    },
+    "num_actv_rev_tl": {
+        "estrategia": "mean",
+        "valor": 5.83361
+    },
+    "num_bc_sats": {
+        "estrategia": "mean",
+        "valor": 4.66532
+    },
+    "num_bc_tl": {
+        "estrategia": "mean",
+        "valor": 8.42365
+    },
+    "num_il_tl": {
+        "estrategia": "mean",
+        "valor": 8.66296
+    },
+    "num_op_rev_tl": {
+        "estrategia": "mean",
+        "valor": 8.39263
+    },
+    "num_rev_accts": {
+        "estrategia": "mean",
+        "valor": 15.28991
+    },
+    "num_rev_tl_bal_gt_0": {
+        "estrategia": "mean",
+        "valor": 5.81747
+    },
+    "num_sats": {
+        "estrategia": "mean",
+        "valor": 11.79017
+    },
+    "num_tl_120dpd_2m": {
+        "estrategia": "mean",
+        "valor": 0.0008159601811431539
+    },
+    "num_tl_30dpd": {
+        "estrategia": "mean",
+        "valor": 0.00444
+    },
+    "num_tl_90g_dpd_24m": {
+        "estrategia": "mean",
+        "valor": 0.09143
+    },
+    "num_tl_op_past_12m": {
+        "estrategia": "mean",
+        "valor": 2.0957
+    },
+    "pct_tl_nvr_dlq": {
+        "estrategia": "mean",
+        "valor": 94.30069700000529
+    },
+    "percent_bc_gt_75": {
+        "estrategia": "mean",
+        "valor": 50.694696425500865
+    },
+    "pub_rec_bankruptcies": {
+        "estrategia": "mean",
+        "valor": 0.12654
+    },
+    "tax_liens": {
+        "estrategia": "mean",
+        "valor": 0.05618
+    },
+    "tot_hi_cred_lim": {
+        "estrategia": "mean",
+        "valor": 172385.51452
+    },
+    "total_bal_ex_mort": {
+        "estrategia": "mean",
+        "valor": 50471.32121
+    },
+    "total_bc_limit": {
+        "estrategia": "mean",
+        "valor": 21073.77013
+    },
+    "total_il_high_credit_limit": {
+        "estrategia": "mean",
+        "valor": 41031.31849
+    },
+    "revol_bal_joint": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "sec_app_fico_range_low": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "sec_app_fico_range_high": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "sec_app_earliest_cr_line": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "sec_app_inq_last_6mths": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "sec_app_mort_acc": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "sec_app_open_acc": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "sec_app_revol_util": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "sec_app_open_act_il": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "sec_app_num_rev_accts": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "sec_app_chargeoff_within_12_mths": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "sec_app_collections_12_mths_ex_med": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "sec_app_mths_since_last_major_derog": {
+        "estrategia": "todos_nan",
+        "valor": null
+    },
+    "hardship_flag": {
+        "estrategia": "mode",
+        "valor": "N"
+    },
+    "hardship_type": {
+        "estrategia": "mode",
+        "valor": "missing"
+    },
+    "hardship_reason": {
+        "estrategia": "mode",
+        "valor": "missing"
+    },
+    "hardship_status": {
+        "estrategia": "mode",
+        "valor": "missing"
+    },
+    "deferral_term": {
+        "estrategia": "mean",
+        "valor": 3.0
+    },
+    "hardship_amount": {
+        "estrategia": "mean",
+        "valor": 110.3355675675061
+    },
+    "hardship_start_date": {
+        "estrategia": "mode",
+        "valor": "missing"
+    },
+    "hardship_end_date": {
+        "estrategia": "mode",
+        "valor": "missing"
+    },
+    "payment_plan_start_date": {
+        "estrategia": "mode",
+        "valor": "missing"
+    },
+    "hardship_length": {
+        "estrategia": "mean",
+        "valor": 3.0
+    },
+    "hardship_dpd": {
+        "estrategia": "mean",
+        "valor": 14.037837837826833
+    },
+    "hardship_loan_status": {
+        "estrategia": "mode",
+        "valor": "missing"
+    },
+    "orig_projected_additional_accrued_interest": {
+        "estrategia": "mean",
+        "valor": 323.49513157849236
+    },
+    "hardship_payoff_balance_amount": {
+        "estrategia": "mean",
+        "valor": 8046.6165405491565
+    },
+    "hardship_last_payment_amount": {
+        "estrategia": "mean",
+        "valor": 186.56313513552024
+    },
+    "disbursement_method": {
+        "estrategia": "mode",
+        "valor": "Cash"
+    },
+    "debt_settlement_flag": {
+        "estrategia": "mode",
+        "valor": "N"
+    },
+    "debt_settlement_flag_date": {
+        "estrategia": "no_imputada",
+        "valor": null
+    },
+    "settlement_status": {
+        "estrategia": "mode",
+        "valor": "missing"
+    },
+    "settlement_date": {
+        "estrategia": "no_imputada",
+        "valor": null
+    },
+    "settlement_amount": {
+        "estrategia": "mean",
+        "valor": 4768.376356597617
+    },
+    "settlement_percentage": {
+        "estrategia": "mean",
+        "valor": 47.720519379791234
+    },
+    "settlement_term": {
+        "estrategia": "mean",
+        "valor": 8.265116279050531
+    }
+}
