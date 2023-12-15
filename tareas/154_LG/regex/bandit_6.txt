@@ -1,0 +1,9 @@
+Para pasar del nivel 5 al 6 utilicé los comandos:
+du -a -b | grep "1033"
+# Cat para abrir la ubicación donde se encuentra la contraseña para el siguiente nivel
+cat ./maybehere07/.file2
+
+Para pasar del nivel 6 al 7 utilicé:
+find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+# Abriendo la ubicación mostrada con
+cat /var/lib/dpkg/info/bandit7.password
